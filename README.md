@@ -34,17 +34,17 @@ The following architecture represents the complete end-to-end MLOps workflow:
 - **Deployment on Google Cloud Run**
 
 
-📦 Project Setup (Local)
+# 📦 Project Setup (Local)
 Clone the Repository
 
-git clone https://github.com/your-username/Hotel-Reservation-Prediction-MLOps.git
-cd Hotel-Reservation-Prediction-MLOps
-Create Virtual Environment and Install Dependencies
+**git clone https://github.com/your-username/Hotel-Reservation-Prediction-MLOps.git**
+**cd Hotel-Reservation-Prediction-MLOps**
+**Create Virtual Environment and Install Dependencies**
 
 
-python -m venv venv
+***python -m venv venv
 source venv/bin/activate    # For Linux/Mac
-.\venv\Scripts\activate      # For Windows
+.\venv\Scripts\activate      # For Windows**
 
 pip install -r requirements.txt
 Run MLflow UI (Optional for experiment tracking)
