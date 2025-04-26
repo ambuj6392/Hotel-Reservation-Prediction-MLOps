@@ -23,10 +23,13 @@ It is built using a complete **MLOps pipeline**, covering model training, tracki
 
 # 🏗️ Project Architecture
 
-**[Data Ingestion] --> B[Data Processing & Feature Engineering]**
-**[Model Training (LightGBM)]**
-**[Experiment Tracking with MLflow]**
-**[Model Saving and Versioning]**
-**[Containerization with Docker]**
-**[CI/CD Automation with Jenkins]**
-**[Deployment on Google Cloud Run]** 
+The following architecture represents the complete end-to-end MLOps workflow:
+
+- **Data Ingestion** → **Data Processing & Feature Engineering**
+- **Model Training (LightGBM)**
+- **Experiment Tracking with MLflow**
+- **Model Saving and Versioning**
+- **Containerization with Docker**
+- **CI/CD Automation with Jenkins**
+- **Deployment on Google Cloud Run**
+
