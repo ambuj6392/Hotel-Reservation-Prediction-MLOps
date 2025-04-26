@@ -42,18 +42,19 @@ Clone the Repository
 **Create Virtual Environment and Install Dependencies**
 
 
-***python -m venv venv
-source venv/bin/activate    # For Linux/Mac
-.\venv\Scripts\activate      # For Windows***
+***python -m venv venv**
+**.\venv\Scripts\activate**      -- For Windows
 
-pip install -r requirements.txt
-Run MLflow UI (Optional for experiment tracking)
+**pip install -r requirements.txt**
+**Run MLflow UI (Optional for experiment tracking)**
 
-mlflow ui
-Run the Flask App Locally
+**mlflow ui**
+**Run the Flask App Locally**
 
-python application.py
-App will be available at: http://localhost:8080
+**python application.py**
+**App will be available at: http://localhost:8080**
+
+![External Image](https://media.istockphoto.com/id/1458782106/photo/scenic-aerial-view-of-the-mountain-landscape-with-a-forest-and-the-crystal-blue-river-in.jpg?s=612x612&w=0&k=20&c=NXQ_OK6JtmyRRBef8Wd67UZ3scQJKySkXl1ORaActH4=.jpg)
 
 🐳 Docker Setup
 Build Docker Image
