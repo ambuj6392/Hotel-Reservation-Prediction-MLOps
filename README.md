@@ -54,7 +54,7 @@ Clone the Repository
 **python application.py**
 **App will be available at: http://localhost:8080**
 
-![External Image](https://media.istockphoto.com/id/1458782106/photo/scenic-aerial-view-of-the-mountain-landscape-with-a-forest-and-the-crystal-blue-river-in.jpg?s=612x612&w=0&k=20&c=NXQ_OK6JtmyRRBef8Wd67UZ3scQJKySkXl1ORaActH4=.jpg)
+![External Image](https://images.app.goo.gl/ougV8H6UCMsjexig6.jpg)
 
 🐳 Docker Setup
 Build Docker Image
