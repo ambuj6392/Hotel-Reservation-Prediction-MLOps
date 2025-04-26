@@ -23,7 +23,7 @@ It is built using a complete **MLOps pipeline**, covering model training, tracki
 
 # 🏗️ Project Architecture
 
-```mermaid
+*** ```mermaid
 flowchart TD
 [Data Ingestion] --> B[Data Processing & Feature Engineering]
 [Model Training (LightGBM)]
@@ -31,4 +31,4 @@ flowchart TD
 [Model Saving and Versioning]
 [Containerization with Docker]
 [CI/CD Automation with Jenkins]
-[Deployment on Google Cloud Run]
+[Deployment on Google Cloud Run] ***
