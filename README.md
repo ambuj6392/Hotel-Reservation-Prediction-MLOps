@@ -1,28 +1,34 @@
 # 📍 Project Overview
 
-This project predicts whether a hotel reservation will be **canceled or honored** based on customer booking details.  
-It is built using a complete **MLOps pipeline**, covering model training, experiment tracking, model versioning, containerization, CI/CD automation, and cloud deployment on Google Cloud.
+This project predicts whether a hotel reservation will be **canceled or honored** based on booking details.  
+It is built using a complete **MLOps pipeline**, covering model training, tracking, versioning, containerization, CI/CD automation, and cloud deployment.
 
 ---
 
 # 🛠️ Tech Stack & Tools Used
 
-- **Programming Language:**  
-  Python 3.10
+- **Python 3.10**
 
-- **Machine Learning:**  
-  LightGBM, Scikit-Learn
+- **Machine Learning:** LightGBM, Scikit-Learn
 
-- **MLOps & DevOps Tools:**  
-  MLflow, Docker, Jenkins, GitHub Actions
+- **MLOps Tools:** MLflow, Docker, Jenkins, GitHub Actions
 
-- **Backend Framework:**  
-  Flask
+- **Backend:** Flask
 
-- **Cloud Services:**  
-  Google Cloud Platform (Cloud Run, Cloud Storage, Artifact Registry)
+- **Cloud:** Google Cloud Platform (Cloud Run, Cloud Storage, Artifact Registry)
 
-- **Supporting Libraries:**  
-  Pandas, NumPy, YAML, Joblib
+- **Others:** Pandas, NumPy, YAML, Joblib
 
 ---
+
+# 🏗️ Project Architecture
+
+```mermaid
+flowchart TD
+A[Data Ingestion] --> B[Data Processing & Feature Engineering]
+B --> C[Model Training (LightGBM)]
+C --> D[Experiment Tracking with MLflow]
+D --> E[Model Saving and Versioning]
+E --> F[Containerization with Docker]
+F --> G[CI/CD Automation with Jenkins]
+G --> H[Deployment on Google Cloud Run]
