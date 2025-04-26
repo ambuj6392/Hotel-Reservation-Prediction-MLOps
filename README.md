@@ -54,7 +54,7 @@ Clone the Repository
 **python application.py**
 **App will be available at: http://localhost:8080**
 
-![External Image](https://images.app.goo.gl/ougV8H6UCMsjexig6.jpg)
+![External Image](.jpg)
 
 🐳 Docker Setup
 Build Docker Image
