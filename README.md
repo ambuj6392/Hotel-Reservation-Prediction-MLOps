@@ -78,6 +78,7 @@ docker build -t hotel-reservation-prediction .
 ```bash
 docker run -p 8080:8080 hotel-reservation-prediction
 ```
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/docker-1.png">
 
 ---
 
@@ -87,27 +88,23 @@ docker run -p 8080:8080 hotel-reservation-prediction
 - Jenkins is configured with Docker and GitHub to pull code, build images, and deploy.
 
 ---
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/jenkins-2.png">
 
 # ☁️ Deployment on Google Cloud Run
 
 - Push Docker Image to **Google Artifact Registry**.
 - Deploy the containerized application on **Google Cloud Run**.
 - Enjoy **auto-scaling** and **serverless execution**.
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/gcp-2.png">
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/gcp-1.png">
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/gcp-3.png">
+
 
 🔗 **Live Deployment Link:**  
-[https://hotel-reservation-prediction-xyz.run.app](https://hotel-reservation-prediction-xyz.run.app) *(replace with your link)*
+https://ml-project-171607476784.us-central1.run.app/
 
 ---
 
-# 📸 Screenshots
-
-| **Feature** | **Screenshot** |
-|-------------|-----------------|
-| MLflow UI Experiment Tracking | *(Insert screenshot here)* |
-| Application UI | *(Insert screenshot here)* |
-| Jenkins Pipeline | *(Insert screenshot here)* |
-
-*(Replace the images with your own screenshots later.)*
 
 ---
 
