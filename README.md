@@ -8,15 +8,10 @@ It is built using a complete **MLOps pipeline**, covering model training, tracki
 # 🛠️ Tech Stack & Tools Used
 
 - **Python 3.10**
-
 - **Machine Learning:** LightGBM, Scikit-Learn
-
 - **MLOps Tools:** MLflow, Docker, Jenkins, GitHub Actions
-
 - **Backend:** Flask
-
 - **Cloud:** Google Cloud Platform (Cloud Run, Cloud Storage, Artifact Registry)
-
 - **Others:** Pandas, NumPy, YAML, Joblib
 
 ---
@@ -33,60 +28,91 @@ The following architecture represents the complete end-to-end MLOps workflow:
 - **CI/CD Automation with Jenkins**
 - **Deployment on Google Cloud Run**
 
+---
 
 # 📦 Project Setup (Local)
-Clone the Repository
 
-**git clone https://github.com/your-username/Hotel-Reservation-Prediction-MLOps.git**
-**cd Hotel-Reservation-Prediction-MLOps**
-**Create Virtual Environment and Install Dependencies**
+## Clone the Repository
 
+```bash
+git clone https://github.com/your-username/Hotel-Reservation-Prediction-MLOps.git
+cd Hotel-Reservation-Prediction-MLOps
+```
 
-***python -m venv venv**
-**.\venv\Scripts\activate**      -- For Windows
+## Create Virtual Environment and Install Dependencies
 
-**pip install -r requirements.txt**
-**Run MLflow UI (Optional for experiment tracking)**
+```bash
+python -m venv venv
+source venv/bin/activate    # For Linux/Mac
+.\venv\Scripts\activate     # For Windows
+pip install -r requirements.txt
+```
 
-**mlflow ui**
-**Run the Flask App Locally**
+## Run MLflow UI (Optional for experiment tracking)
 
-**python application.py**
-**App will be available at: http://localhost:8080**
+```bash
+mlflow ui
+```
 
-![External Image](.jpg)
+## Run the Flask App Locally
 
-🐳 Docker Setup
-Build Docker Image
+```bash
+python application.py
+```
 
+The app will be available at: [http://localhost:8080](http://localhost:8080)
+
+---
+
+# 🐳 Docker Setup
+
+## Build Docker Image
+
+```bash
 docker build -t hotel-reservation-prediction .
-Run Docker Container
+```
 
+## Run Docker Container
+
+```bash
 docker run -p 8080:8080 hotel-reservation-prediction
-⚙️ Jenkins Setup (CI/CD)
-A Jenkinsfile is created for pipeline automation.
+```
 
-Jenkins is configured with Docker and GitHub to pull code, build images, and deploy.
+---
 
-☁️ Deployment on Google Cloud Run
-Push Docker Image to Google Artifact Registry
+# ⚙️ Jenkins Setup (CI/CD)
 
-Deploy the containerized application on Google Cloud Run
+- A **Jenkinsfile** is created for pipeline automation.
+- Jenkins is configured with Docker and GitHub to pull code, build images, and deploy.
 
-Auto-scaling and serverless execution
+---
 
-🔗 Live Deployment Link: https://hotel-reservation-prediction-xyz.run.app (replace with your link)
+# ☁️ Deployment on Google Cloud Run
 
-📸 Screenshots
+- Push Docker Image to **Google Artifact Registry**.
+- Deploy the containerized application on **Google Cloud Run**.
+- Enjoy **auto-scaling** and **serverless execution**.
 
-Feature	Screenshot
-MLflow UI Experiment Tracking	
-Application UI	
-Jenkins Pipeline	
-(Replace the images with your own screenshots later)
+🔗 **Live Deployment Link:**  
+[https://hotel-reservation-prediction-xyz.run.app](https://hotel-reservation-prediction-xyz.run.app) *(replace with your link)*
 
-🧹 Folder Structure
+---
 
+# 📸 Screenshots
+
+| **Feature** | **Screenshot** |
+|-------------|-----------------|
+| MLflow UI Experiment Tracking | *(Insert screenshot here)* |
+| Application UI | *(Insert screenshot here)* |
+| Jenkins Pipeline | *(Insert screenshot here)* |
+
+*(Replace the images with your own screenshots later.)*
+
+---
+
+# 🧹 Folder Structure
+
+```plaintext
 Hotel-Reservation-Prediction-MLOps/
 │
 ├── artifacts/                # Processed data, models
@@ -106,19 +132,22 @@ Hotel-Reservation-Prediction-MLOps/
 ├── setup.py
 ├── README.md
 └── mlruns/                    # MLflow tracking folder
-✨ Future Improvements
-Add model drift detection with EvidentlyAI
+```
 
-Deploy monitoring dashboards with Prometheus + Grafana
+---
 
-Setup model retraining triggers based on data drift
+# ✨ Future Improvements
 
-🙌 Acknowledgments
+- Add **model drift detection** with **EvidentlyAI**
+- Deploy **monitoring dashboards** with **Prometheus + Grafana**
+- Setup **model retraining triggers** based on data drift
+
+---
+
+# 🙌 Acknowledgments
+
 Thanks to open-source communities and MLflow, Flask, GCP, and LightGBM contributors.
 
-🚀 Made with ❤️ by [Your Name]
-please give In Markdown (the formatting language) for all text
+---
 
-
-
-
+# 🚀 Made with ❤️ by [Ambuj Nayan Mishra]
