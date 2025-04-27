@@ -100,7 +100,7 @@ docker run -p 8080:8080 hotel-reservation-prediction
 <img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/gcp-3.png">
 
 
-🔗 **Live Deployment Link:**  
+# 🔗 Live Deployment Link: 
 https://ml-project-171607476784.us-central1.run.app/
 
 ---
