@@ -53,6 +53,7 @@ pip install -r requirements.txt
 ```bash
 mlflow ui
 ```
+<img src="https://github.com/ambuj6392/Hotel-Reservation-Prediction-MLOps/blob/main/images/mlflow.png">
 
 ## Run the Flask App Locally
 
