@@ -1,7 +1,7 @@
 # 📍 Project Overview
 
 This project predicts whether a hotel reservation will be **canceled or honored** based on booking details.  
-It is built using a complete **MLOps pipeline**, covering model training, tracking, versioning, containerization, CI/CD automation, and cloud deployment.
+It is built using a complete **MLOps pipeline**, covering **model training, tracking, versioning, containerization, CI/CD automation, and cloud deployment.**
 
 ---
 
@@ -148,7 +148,7 @@ Thanks to open-source communities and MLflow, Flask, GCP, and LightGBM contribut
 
 ---
 
-# 🚀 Made with ❤️ by [Ambuj Nayan Mishra]
+# 🚀 Made by [Ambuj Nayan Mishra]
 
 
 
